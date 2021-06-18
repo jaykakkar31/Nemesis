@@ -1,0 +1,45 @@
+body{
+    margin: 20px;
+}
+
+.white-panel {
+  
+  background: #f5ba13;
+  height: 28rem;
+  display: flex;
+  width: 60%;
+  border-radius: 10px;
+  margin: 7% 20%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login-show .form {
+  display: flex;
+  justify-content: center;
+}
+
+.login-show input[type="email"],
+.login-show input[type="password"] {
+  width: -webkit-fill-available;
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #b5b5b5;
+}
+
+.login-show .form button {
+  border: none;
+  padding: 12px;
+  width: 120px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
+}
+.login-show .login-heading {
+  display: flex;
+  justify-content: center;
+
+  background: bisque;
+}
